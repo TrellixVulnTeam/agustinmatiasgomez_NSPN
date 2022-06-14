@@ -185,6 +185,26 @@ ul{
 }
 
 
+.lista-header{
+    text-align: center;
+    font-size: 150%;
+    color: #efefef;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* h3 */
+.animation{
+    width: 30px;
+    height: 100px;
+    text-align: center ;
+    margin: 25px ;
+    display: flex;
+    color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+}
 
 
 /* product */
@@ -202,7 +222,12 @@ ul{
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
+    text-align: right;
+}
+
+.product-category :hover{
     text-decoration: underline
+    color:rgb(197, 192, 192)
 }
 
 .product-container{
