@@ -1,11 +1,42 @@
 $color-principal: rgb(52, 52, 69);
-$color-secundario: rgb(33, 9, 71);
+$color-secundario: rgb(67, 14, 152);
 
 
 h1{
     color: $color-principal;
 }
 
-h2{
-    color: $color-secundario;
+
+h3{
+    text-align: center;
+    color: $color-principal;
+}
+
+@mixin button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+} 
+  
+.card-btn{
+    @include button;
+}
+
+%fondo{
+        background: #efefef;
+ }
+
+
+ .card-btn:hover{
+    @include %fondo;
 }
