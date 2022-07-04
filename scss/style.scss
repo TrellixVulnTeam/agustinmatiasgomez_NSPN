@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $color-principal: rgb(52, 52, 69);
 $color-secundario: rgb(67, 14, 152);
 
@@ -6,6 +7,7 @@ h1{
     color: $color-principal;
 }
 
+<<<<<<< HEAD
 
 h3{
     text-align: center;
@@ -40,3 +42,13 @@ h3{
  .card-btn:hover{
     @include %fondo;
 }
+=======
+h2{
+    color: $color-secundario;
+}
+=======
+h1{
+    color: rgb(50, 3, 3)
+}
+>>>>>>> f0cbfd506351ef2373fbda20524c25084d5faf43
+>>>>>>> efe1993db9e63bffd428004407ff357f31130943
