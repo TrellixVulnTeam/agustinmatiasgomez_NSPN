@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="/style.css/signup.css">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <link rel="stylesheet" href="/style.css/checkout.css">
+    <link rel="stylesheet" href="/style.css/cart.css">
+  
+
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+            <img src="../img/logo.png" class="logo" alt="logo marca">
+            </div>
+                <a href="/pages/login.html"><img src="../img/user.png" alt="crear contacto"></a>
+                <a href="/pages/cart.html"><img src="../img/cart.png" alt="Carrito"></a>
+            </div>
+            <ul class="link-container">
+                <li class="link-item "> <a href="/index.html" class="link">Home</a></li>
+                <li class="link-item "> <a href="/pages/productos.html"     class="link">Poductos</a></li>
+                <li class="link-item "> <a href="/pages/tendencias.html" class="link">Tendecia</a></li>
+                <li class="link-item "> <a href="/pages/Contacto.html"     class="link">Contacto</a></li>
+            </ul>
+           
+    </header>
+
+
+    <nav class="navbar"></nav>
+
+    <div class="alert-box">
+        <img src="img/error.png" class="alert-img" alt="">
+        <p class="alert-msg"></p>
+    </div>
+
+    <div class="form">
+        <h1 class="heading">checkout</h1>
+        <p class="text">Dirección de entreaga</p>
+        <input type="text" id="address" placeholder="Dirección">
+        <input type="text" id="street" placeholder="Calle">
+        <div class="three-input-container">
+            <input type="text" id="city" placeholder="Ciudad">
+            <input type="text" id="state" placeholder="Pais">
+            <input type="text" id="pincode" placeholder="codigo postal">
+        </div>
+        <input type="text" id="landmark" placeholder="Punto de referencia ">
+    </div>
+
+    <div class="cart-section">
+        <div class="product-list">
+            <p class="section-heading">Tu carrito</p>
+            <div class="cart">
+                
+            </div>
+        </div>
+        <div class="checkout-section">
+            <div class="checkout-box">
+                <p class="text">Total a pagar</p>
+                <h1 class="bill">$00</h1>
+                <button class="place-order-btn">Realizar pedido</button>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="js/cart.js"></script>
+
+    <script src="js/checkout.js"></script>
+    
+</body>
+</html>

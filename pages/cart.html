@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results for </title>
+    <title>Carrito</title>
 
-    <link rel="stylesheet" href="../style.css/style.css">
-    
+    <link rel="stylesheet" href="/style.css/cart.css">
+    <link rel="stylesheet" href="/style.css/style.css">
 
 </head>
 <body>
+
     <header>
 
         <div class="nav">
@@ -30,22 +31,36 @@
                 <li class="link-item "> <a href="/pages/tendencias.html" class="link">Tendecia</a></li>
                 <li class="link-item "> <a href="/pages/Contacto.html"     class="link">Contacto</a></li>
             </ul>
-            
+        
     </header>
-    
+
     <nav class="navbar"></nav>
 
-    <section class="search-results">
-        <h2 class="heading">Resultado de búsqueda para: <span id="search-key"></span></h2>
-        <section class="card-container"></section>
-    </section>
-
+    <div class="cart-section">
+        <div class="product-list">
+            <p class="section-heading">tu carrito</p>
+            <div class="cart">
+               
+            </div>
+            <p class="section-heading">tu lista de deseo</p>
+            <div class="wishlist">
+                
+            </div>
+        </div>
+        <div class="checkout-section">
+            <div class="checkout-box">
+                <p class="text">total</p>
+                <h1 class="bill">$00</h1>
+                <a href="/pages/checkout.html" class="checkout-btn">checkout</a>
+            </div>
+        </div>
+    </div>
     <footer>
         
         <div class="footer-content">
             <img src="../img/logoblanco.png" class="logo" alt="">
             <div class="footer-ul-container">
-               
+                   
                 <ul class="category">
                     <li class="category-title">Ayuda y Soporte</li>
                     <li><a href="/pages/blog.html" class="footer-link">Blog</a></li>
@@ -71,8 +86,11 @@
                 <a href="https://twitter.com/" class="social-link" target="_blank">twitter</a>
             </div>
         </div>
+        </div>
         </footer>
 
   
+    <script src="js/cart.js"></script>
+    
 </body>
 </html>
